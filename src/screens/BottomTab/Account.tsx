@@ -206,6 +206,36 @@ export default function Account() {
             
           </View>
         </View>
+         <TouchableOpacity
+          style={{
+            marginHorizontal: 10,
+            backgroundColor: '#fff',
+            borderRadius: 10,
+            height: hp(8),
+            marginVertical: 5,
+          }}>
+          <View
+            style={{
+              flexDirection: 'row',
+            alignItems:'center',
+              paddingHorizontal: 15,
+              marginTop: 20,
+            }}>
+              <Image  
+              style={{height:30,width:30}}
+              resizeMode='contain'
+              source={require('../../assets/Cropping/logout.png')}
+              />
+            <View style={{marginLeft:15}}>
+              <Text style={{fontSize: 14, color: '#000', fontWeight: '700'}}>
+               LogOut
+              </Text>
+            
+            </View>
+
+            
+          </View>
+        </TouchableOpacity>
       </ScrollView>
     </View>
   );
